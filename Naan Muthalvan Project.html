@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vignesh T- Portfolio</title>
+<style>
+body {
+font-family: 'Times New Roman';
+margin: 0;
+padding: 0;
+line-height: 1.6;
+}
+.container {
+width: 90%;
+max-width: 1000px;
+margin: 0 auto;
+padding: 5px 0;
+}
+header {
+background-color: #333;
+color: #fff;
+padding: 1px 0;
+}
+header .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav ul {
+list-style: none;
+display: flex;
+}
+nav ul li {
+margin-left: 30px;
+}
+nav ul li a {
+color: #fff;
+text-decoration: none;
+}
+#about {
+display: flex;
+align-items: center;
+padding: 10px 0;
+}
+.profile-pic img {
+width: 200px;
+height: 230px;
+border-radius: 25%;
+object-fit: cover;
+margin-right: 20px;
+}
+.about-content h2 {
+margin-bottom: 5px;
+}
+#skills {
+background-color: #f4f4f4;
+padding: 50px 0;
+text-align: center;
+}
+.skills-list {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+gap: 20px;
+}
+.Education{
+text-align: center;
+}
+.skill {
+background-color: #fff;
+padding: 5px;
+border-radius: 0px;
+box-shadow: 0 1px 0.2px rgba(0, 0, 0, 0.1);
+}
+#projects {
+padding: 1.2px 0;
+}
+.project-list {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(1200px, 2fr));
+gap: 50px;
+}
+.project {
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.resume-button {
+display: inline-block;
+background-color: #007bff;
+color: #fff;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+border-radius: 5px;
+margin-top: 20px;
+}
+footer {
+background-color: #362929;
+color: #fff;
+text-align: center;
+padding: 0.2px ;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<h1>Vignesh T</h1>
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#Education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#resume">Resume</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<section id="about" class="container">
+<div class="profile-pic">
+<img src="Vignesh.jpg"alt=" Profile Picture">
+</div>
+<div class="about-content">
+<h2>About Me</h2>
+<p>I'm a <b>Database</b> expert who is passionate about creating dynamic and user-friendly Projects.
+I'm driven by the desire to craft high-performance web applications that enhance user experience and
+provide
+seamless digital solutions. With over 7 years of experience in the field, I'm dedicated to staying up to date
+with the latest trends and innovations in the
+web development landscape. I'm also committed to helping others learn more about web technologies,
+best practices, and how to build secure and scalable websites.</p>
+</div>
+</section>
+<section>
+<div class="Education">
+<h2>Education</h2>
+<p>Bharathidhasan University - B.Sc.,(Computer Science)</p>
+</div>
+</section>
+<section id="skills" class="container">
+<h2>Skills</h2>
+<div class="skills-list">
+<div class="skill">
+<h3>Oracle SQL</h3>
+<div class="progress-bar">
+<div class="progress" style="width: 90%;"></div>
+</div>
+</div>
+<div class="skill">
+<h3>Python</h3>
+<div class="progress-bar">
+<div class="progress" style="width: 85%;"></div>
+</div>
+</div>
+<div class="skill">
+<h3>Frontend Web Development</h3>
+<div class="progress-bar">
+<div class="progress" style="width: 75%;"></div>
+</div>
+</div>
+<div class="skill">
+<h3>Power BI</h3>
+<div class="progress-bar">
+<div class="progress" style="width: 60%;"></div>
+</div>
+</div>
+<div class="skill">
+<h3>MYSQL Database</h3>
+<div class="progress-bar">
+<div class="progress" style="width: 50%;"></div>
+</div>
+</div>
+<div class="skill">
+<h3>Poster Making</h3>
+<div class="progress-bar">
+<div class="progress" style="width: 60%;"></div>
+</div>
+</div>
+</section>
+<section id="projects" class="container">
+<h2>Projects</h2>
+<div class="project-list">
+<div class="project">
+<h3>Project 1: Personal Portfolio Website </h3>
+<p>This is Fully Filled on My Personal Information.</p>
+<a href="#" target="_blank">View Project</a>
+</div>
+<div class="project">
+<h3>Project 2: Basic Calculator Using Python</h3>
+<p>A Sample Calculator Code Using Pyhton Package Concept.</p>
+<a href="Calculator Program.pdf"target="_blank" class="Project-button">Click To View</a>
+</div>
+<div class="project">
+<h3>Project 3: CRUD Operation on MYSQL</h3>
+<p>It is Used To Create ,Read,Update,Delete Statement On MYSQL.</p>
+<a href="1.pdf"target="_blank" class="Project-button">Click TO View</a>
+</div>
+</div>
+</section>
+<section id="resume" class="container">
+<h2>Resume</h2>
+<a href="Vignesh Thiyagarajan Resume (1).pdf"target="_blank" class="resume-button">Download CV</a>
+</section>
+<footer>
+<div class="container">
+<p>&copy; 2025 Vignesh T . All rights reserved.</p>
+</div>
+</footer>
+</body>
+</html>
